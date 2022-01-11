@@ -70,6 +70,7 @@ a{
 }
 
 .card img {
+	object-fit: cover;
 	width: 20vw;
 	height: 20vw;
 	border-radius: 60px;
@@ -90,6 +91,10 @@ a{
                  26.7px 27.6px 33.4px rgba(0, 0, 0, 0.073),
                 64px 66px 80px rgba(0, 0, 0, 0.07);
     transition: 0.2s;
+}
+
+.card img:active {
+	width: 30vw;
 }
 
 .card-text {
@@ -121,7 +126,7 @@ a{
 	font-family: "lato";
 	font-size: 12px;
 	background-color: #232323;
-	color: white;
+	color: white !important;
 	width: auto;
 	height: 20px;
 	padding: 5px 20px;
@@ -131,7 +136,8 @@ a{
 	font-family: "lato";
 	font-size: 12px;
 	background-color: white;
-	color: #232323;
+	color: #232323 !important;
+	font-weight: 700;
 	width: auto;
 	height: 20px;
 	padding: 5px 20px;
@@ -139,7 +145,7 @@ a{
 }
 
 .entry-text {
-	width: 50vw;
+	width: 60vw;
 	font-family: "lato";
 	background-color: #F3F3F3;
 	margin: auto;
@@ -200,7 +206,7 @@ a{
 	position: relative;
 	display: flex;
 	flex-direction: row;
-	width: 50vw;
+	width: 60vw;
 	height: 280px;
 	font-family: "lato";
 	margin: auto;
@@ -251,4 +257,207 @@ a{
 .recent-projects .button-white {
 	margin-left: 47%;
 	transform: translate(-0%, -50%);
+}
+
+
+
+/*	Subjects and the tabs	*/
+
+.subjects-background {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.subject-display {
+	position:  relative;
+	width: 70%;
+	height: auto;
+	margin: auto;
+	background-color: #EEE;
+	border-radius: 20px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+                0 2px 2px rgba(0,0,0,0.11), 
+                0 4px 4px rgba(0,0,0,0.11), 
+                0 6px 8px rgba(0,0,0,0.11),
+                0 8px 16px rgba(0,0,0,0.11);
+  transition: 0.2s;
+  padding-bottom: 80px;
+}
+
+.subject-fuckery {
+	width: 65%;
+	margin:  auto;
+	display: flex;
+	flex-direction: row;
+	margin-bottom:  10%;
+
+}
+
+.subject-entry {
+	background-color: #232323;
+	border-radius: 20px;
+	width: 20vw;
+	height:  30vh;
+	margin-top: 5vh;
+	padding: 30px;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+                0 2px 2px rgba(0,0,0,0.11), 
+                0 4px 4px rgba(0,0,0,0.11), 
+                0 6px 8px rgba(0,0,0,0.11),
+                0 8px 16px rgba(0,0,0,0.11);
+  transition: 0.2s;
+}
+
+.subject-entry:hover{
+	margin-left: -2px;
+	box-shadow: 1.8px 1.8px 2.2px rgba(0, 0, 0, 0.052),
+                4.3px 4.4px 5.3px rgba(0, 0, 0, 0.067),
+                  8px 8.3px 10px rgba(0, 0, 0, 0.073),
+                14.3px 14.7px 17.9px rgba(0, 0, 0, 0.075),
+                 26.7px 27.6px 33.4px rgba(0, 0, 0, 0.073),
+                64px 66px 80px rgba(0, 0, 0, 0.07);
+    transition: 0.2s;
+}
+
+
+.subjects-buttons {
+	width: 250px;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+.subjects-buttons button{
+	outline: none;
+	border: none;
+	background-color: transparent;
+	font-family: "lato";
+	font-size: 12px;
+	margin-left: 40px;
+	font-weight: 700;
+	color: #999;
+}
+
+.subject-button-selected {
+	color: black !important;
+
+}
+
+.subjects-buttons button:first-of-type{
+	margin-left: 0px;
+}
+
+.subjects-buttons button:hover{
+	color: black;
+}
+
+.icon-ic {
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	margin: 15px;
+}
+
+.subject-icons {
+	width: 230px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+
+.subject-entries {
+	width: 1000px;
+	height:  auto;
+	margin:  auto;
+}
+
+.subject-entries a {
+	color: white;
+	font-family: "lato";
+	font-size: 10px;
+}
+
+.subject-entries p {
+	color: white;
+	font-family: "lato";
+	font-size: 12px;
+}
+
+.subject-entries p {
+	text-align: justify;
+	margin-top: 20px;
+	color: white;
+	font-family: "lato";
+	font-size: 12px;
+}
+
+.subject-entries .button-white {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+}
+
+.subject-display .button-black {
+	width: 50px;
+	margin-left: 30.5vw;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+                0 2px 2px rgba(0,0,0,0.11), 
+                0 4px 4px rgba(0,0,0,0.11), 
+                0 6px 8px rgba(0,0,0,0.11),
+                0 8px 16px rgba(0,0,0,0.11);
+  transition: 0.2s;
+}
+
+.subject-display .button-black:hover{
+	margin-top: -2px;
+	box-shadow: 1.8px 1.8px 2.2px rgba(0, 0, 0, 0.052),
+                4.3px 4.4px 5.3px rgba(0, 0, 0, 0.067),
+                  8px 8.3px 10px rgba(0, 0, 0, 0.073),
+                14.3px 14.7px 17.9px rgba(0, 0, 0, 0.075),
+                 26.7px 27.6px 33.4px rgba(0, 0, 0, 0.073),
+                64px 66px 80px rgba(0, 0, 0, 0.07);
+    transition: 0.2s;
+}
+
+
+
+/*  Footer  */
+
+
+.footer-image {
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row ;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.copyright-ting {
+	display: flex;
+	flex-direction: row;
+	font-size: 10px;
+	color: #777777;
+	margin-right: 100px;
+}
+
+.copyright-ting p {
+	font-family: "lato";
+	margin: auto;
+	margin-left: 10px;
+}
+
+.footer-buttons a {
+	font-family: "lato";
+	margin-left: 20px;
+	font-size: 10px;
 }

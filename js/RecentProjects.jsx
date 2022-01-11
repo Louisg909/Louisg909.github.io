@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./General";
+import { Button } from "./General";
 
 function Entry(props) {
 	if(props.type==="text"){

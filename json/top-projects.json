@@ -1,0 +1,80 @@
+{
+	"music":[
+		{
+			"title":"Planks Theme Song",
+			"description":"Theme song for the 'Are you Smarter than an Undergrad?' game for the planks competition 2022.",
+			"subcatagory":"composition",
+			"link":""
+		},
+		{
+			"title":"Fly Me to the Moon /w Fin Draper",
+			"description":"After seeing a video posted by Fin Draper of him playing 'Fly Me to the Moon', I decided I would challenge myself to release a video of me accompanying this by the end of the same day. This required me to first work out what I was going to play, learn the parts, record it, video it and finally editing it before posting it on YouTube.",
+			"subcatagory":"recording",
+			"link":""
+		},
+		{
+			"title":"Just the Two of Us music 3",
+			"description":"I wanted to arrange a full score and use it to record a full cover of 'Just the Two of Us' by Grover Washington Jr.  I had to fit the song to my intstraments and also had to write my own guitar solo over the improvisation section",
+			"subcatagory":"recording",
+			"link":""
+		},
+		{
+			"title":"Just the Two of Us music 4",
+			"description":"I wanted to arrange a full score and use it to record a full cover of 'Just the Two of Us' by Grover Washington Jr.  I had to fit the song to my intstraments and also had to write my own guitar solo over the improvisation section",
+			"subcatagory":"recording",
+			"link":""
+		}
+	],
+	"programming":[
+		{
+			"title":"Desmos Art Maker pp lol",
+			"description":"Make a python program that can take inputs of images, and with varieng input from the user can create a list of equations in LaTeX form that can be pasted into Desmos.",
+			"subcatagory":"python",
+			"link":""
+		},
+		{
+			"title":"Perminant Calendar Display",
+			"description":"This project is to create an app that either takes inputs of times and dates of their own (or takes them from Google Calendar) and display the calendar timetabled by the week, always showing the next 7 days in the same form as Google Calendar's week format.",
+			"subcatagory":"raspberry pi",
+			"link":""
+		},
+		{
+			"title":"Just the Two of Us prog 3",
+			"description":"I wanted to arrange a full score and use it to record a full cover of 'Just the Two of Us' by Grover Washington Jr.  I had to fit the song to my intstraments and also had to write my own guitar solo over the improvisation section",
+			"subcatagory":"recording",
+			"link":""
+		},
+		{
+			"title":"Just the Two of Us prog 4",
+			"description":"I wanted to arrange a full score and use it to record a full cover of 'Just the Two of Us' by Grover Washington Jr.  I had to fit the song to my intstraments and also had to write my own guitar solo over the improvisation section",
+			"subcatagory":"recording",
+			"link":""
+		}
+	],
+	"art":[
+		{
+			"title":"Desmos Art Competition Entry",
+			"description":"After seeing the competition put up by Desmos, I thought it was the perfect opertunity to show off my skills. I really wanted to go above and beyond so I decided to make XXX",
+			"subcatagory":"Desmos",
+			"link":""
+		},
+		{
+			"title":"Perminant Calendar Display",
+			"description":"This project is to create an app that either takes inputs of times and dates of their own (or takes them from Google Calendar) and display the calendar timetabled by the week, always showing the next 7 days in the same form as Google Calendar's week format.",
+			"subcatagory":"Raspberry Pi",
+			"link":""
+		},
+		{
+			"title":"Just the Two of Us art 3",
+			"description":"I wanted to arrange a full score and use it to record a full cover of 'Just the Two of Us' by Grover Washington Jr.  I had to fit the song to my intstraments and also had to write my own guitar solo over the improvisation section",
+			"subcatagory":"recording",
+			"link":""
+		},
+		{
+			"title":"Just the Two of Us art 4",
+			"description":"I wanted to arrange a full score and use it to record a full cover of 'Just the Two of Us' by Grover Washington Jr.  I had to fit the song to my intstraments and also had to write my own guitar solo over the improvisation section",
+			"subcatagory":"recording",
+			"link":""
+		}
+	]
+}
