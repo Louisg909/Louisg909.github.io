@@ -24,27 +24,27 @@ class Subjects extends React.Component {
 		if(option === "music"){
 			const entries = this.props.entries["music"];
 			console.log(entries)
-			for(const e of entries){
-				proccesedEntries.push(<Entry link={e.link} title={e.title} description={e.description} subcatagory={e.subcatagory} />)
-			}
+                        for(const [index, e] of entries.entries()){
+                                proccesedEntries.push(<Entry key={index} link={e.link} title={e.title} description={e.description} subcatagory={e.subcatagory} />)
+                        }
 			var iconsinput=["../assets/icons/video.png","../assets/icons/sibalius.png","../assets/icons/theory.png"];
 			for(const icon of iconsinput){
 				icons.push(<a><img src={icon} alt="icon"/></a>)
 			}
 		} else if(option === "programming"){
 			const entries = this.props.entries["programming"];
-			for(const e of entries){
-				proccesedEntries.push(<Entry link={e.link} title={e.title} description={e.description} subcatagory={e.subcatagory} />)
-			}
+                        for(const [index, e] of entries.entries()){
+                                proccesedEntries.push(<Entry key={index} link={e.link} title={e.title} description={e.description} subcatagory={e.subcatagory} />)
+                        }
 			var iconsinput=["../meta/icons/python.png","../meta/icons/pi.png","../meta/icons/c.png"];
 			for(const icon of iconsinput){
 				icons.push(<a><img src={icon} alt="icon" className="icon-ic"/></a>)
 			}
 		}else if(option === "art"){
 			const entries = this.props.entries["art"];
-			for(const e of entries){
-				proccesedEntries.push(<Entry link={e.link} title={e.title} description={e.description} subcatagory={e.subcatagory} />)
-			}
+                        for(const [index, e] of entries.entries()){
+                                proccesedEntries.push(<Entry key={index} link={e.link} title={e.title} description={e.description} subcatagory={e.subcatagory} />)
+                        }
 			var iconsinput=["../assets/icons/photoshop.png","../assets/icons/pen.png","../assets/icons/desmos.png"];
 			for(const icon of iconsinput){
 				icons.push(<a><img src={icon} alt="icon"/></a>)

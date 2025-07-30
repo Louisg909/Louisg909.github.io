@@ -30,14 +30,14 @@ function Entry(props) {
 
 function RecentProjects(props){
 	
-	var entries = []
-	for(const p of props.entries) {
-		if(p.type === "text") {
-			entries.push(<Entry type={p.type} tag={p.tag} title={p.title} description={p.description} link={p.link} />);
-		} else if (p.type === "video") {
-			entries.push(<Entry type={p.type} tag={p.tag} title={p.title} description={p.description} image={p.image} link={p.link} />)
-		}
-	}
+        var entries = []
+        for(const [index, p] of props.entries.entries()) {
+                if(p.type === "text") {
+                        entries.push(<Entry key={index} type={p.type} tag={p.tag} title={p.title} description={p.description} link={p.link} />);
+                } else if (p.type === "video") {
+                        entries.push(<Entry key={index} type={p.type} tag={p.tag} title={p.title} description={p.description} image={p.image} link={p.link} />)
+                }
+        }
 
 	return(
 		<div className="recent-projects">
